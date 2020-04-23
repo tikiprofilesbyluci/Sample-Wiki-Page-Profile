@@ -1,0 +1,10 @@
+objects:
+ -
+  type: wiki_page
+  ref: Sample Wiki Page
+  data:
+   name: Sample Wiki Page
+   description: Testing the look
+   lang: en
+   mode: create_or_update
+   content: wikicontent:Sample Wiki Page
