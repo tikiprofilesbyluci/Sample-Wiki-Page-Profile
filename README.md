@@ -3,7 +3,7 @@ Based on https://themes.tiki.org/Sample+page (thanks Gary!).
 Applying this profile will create a sample wiki page in your Tiki with examples of some wiki syntax and wiki plugins to see how they actually render. You can check the following wiki page for a preview: https://profiles.luciash.eu/Sample+Wiki+Page
 
 ## Download
-Get the release package here in the Releases tab.
+Get the released package from the Releases on Github (https://github.com/tikiprofilesbyluci/Sample-Wiki-Page-Profile).
 
 ## Installation
 How to Install (aka Apply) the Profile?  
