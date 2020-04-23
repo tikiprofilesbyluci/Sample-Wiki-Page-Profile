@@ -1,0 +1,80 @@
+-=Sample page elements=-
+__These are produced by standard Tiki wiki syntax:__
+
+~np~{maketoc}~/np~:
+{maketoc}
+
+-=A titlebar=-
+
+! h1 heading
+Lorem ipsum sit amet, consectetuer adipiscing elit. Proin consequat libero. Phasellus porta diam id justo. In eget neque ut metus aliquet bibendum. Curabitur lacinia aliquam sem. Praesent aliquam. __Morbi quis tellus.__ Vestibulum nec neque commodo metus sagittis ullamcorper. Maecenas turpis. Mauris quis leo. Maecenas id felis. Nulla nec nibh. Morbi facilisis. Cras in ipsum a felis ornare dapibus. 
+
+!! h2 heading
+Nullam mi. ''Praesent vehicula'' consectetuer tortor. Mauris venenatis leo at metus. Ut sit amet enim. Aenean tortor orci, hendrerit a, eleifend quis, pharetra eu, felis.
+
+!!! h3 heading
+Vestibulum dignissim. Praesent non magna id ipsum iaculis pharetra. Nam tristique vestibulum felis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce eget nisi. Nullam quis nisi.
+
+!!!! h4 heading
+Cras euismod lectus vel metus. Praesent gravida. Nunc molestie mattis justo. Curabitur ornare, felis et vulputate dapibus, leo est condimentum enim, blandit ultrices orci mauris at eros. Pellentesque eu arcu eu massa mattis rhoncus. Ut volutpat mi in ligula. Pellentesque vitae tellus quis nibh feugiat ornare. Nullam arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+!!!!! h5 heading
+
+!!!!!! h6 heading
+
+!! Text formating
+::Centered text:: (centered with "~np~::~/np~" tags)
+__Bold (strong) text__
+''Italic (emphasized) text''
+===Underline===
+--Strike through--
+~~#90F:Colored text~~
+
+!! Lists
+*An unordered list item
+**A subitem
+And some text
+*Another item 
+. . . and more text . . .
+*Item 3
+. . . and some more text, to illustrate the line spacing.
+
+!! Tables
+A table:
+||Row One, Column One|Row One, Column Two
+Row Two, Column One|Row Two, Column Two||
+
+!! Boxes
+^A box^
+
+!! Links
+A [http://tiki.org|link|nocache]
+
+!! Wiki Plugins
+__And these are produced by wiki plugins:__
+
+A module(centered with "~np~{CENTER()} wiki plugin~/np~"):
+{CENTER()}{MODULE(module=>google)}{MODULE}{CENTER}
+
+{MODULE(module=>who_is_there)}{MODULE}
+
+Quote plugin: 
+{QUOTE()}
+Just what do you think you're doing, Dave?
+
+-- HAL, in 2001: A Space Odyssey (1968) 
+{QUOTE}
+
+Code plugin: 
+{CODE()}
+{Hello World in Pascal}
+
+program HelloWorld(output);
+begin
+  WriteLn('Hello World!');
+end.
+{CODE}
+
+Fancy table:
+{FANCYTABLE(head=>head one~|~head two~|~head three)}cell one~|~cell two~|~cell three
+r2 c1~|~ r2 c2~|~ r2 c3{FANCYTABLE}
